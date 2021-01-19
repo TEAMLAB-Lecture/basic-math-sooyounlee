@@ -96,4 +96,4 @@ def get_median(number_list):
     if n % 2 == 1:
         return sorted(number_list)[n//2]
     else:
-        return sum(sorted(number_list[n//2-1:n//2+1]))/2.0
+        return sum(sorted(number_list)[n//2-1:n//2+1])/2.0
